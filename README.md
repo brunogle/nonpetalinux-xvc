@@ -15,7 +15,7 @@ volatile jtag_t* ptr = (volatile jtag_t*) mmap(NULL, MAP_SIZE, PROT_READ | PROT_
 ...
 ```
 
-Donde `0x43C00000` es la direccion default del debug bridge. Despues se puede compilar con `gcc xvcServer.c -o xvcServer`.
+Donde `0x43C00000` es la direccion default del debug bridge.
 
 Se puede ejecutar con `xvcstart` y parar con `xvcstop`. Si se ejecuta el XVC sin que este el Debug Bridge mapeado a la direccion correcta o sin que el bitstream este cargado, el CPU se cuelga y hay que reiniciarlo.
 
