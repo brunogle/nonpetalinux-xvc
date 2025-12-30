@@ -1,9 +1,9 @@
-/* This work, "xvcServer.c", is a derivative of "xvcd.c" (https://github.com/tmbinc/xvcd) 
- * by tmbinc, used under CC0 1.0 Universal (http://creativecommons.org/publicdomain/zero/1.0/). 
+/* This work, "xvc-no-uio0.c", is a derivative of "xvcServer.c" (https://github.com/Xilinx/XilinxVirtualCable/blob/master/jtag/zynq7000/XAPP1251/src/xvcServer.c) 
+ * by Xilinx, used under CC0 1.0 Universal (http://creativecommons.org/publicdomain/zero/1.0/). 
  * "xvcServer.c" is licensed under CC0 1.0 Universal (http://creativecommons.org/publicdomain/zero/1.0/) 
  * by Avnet and is used by Xilinx for XAPP1251.
  *
- *  Description : XAPP1251 Xilinx Virtual Cable Server for Linux
+ *  Description : Modified XilinxVirtualCable for use in Zynq-7000 system where /dev/uio0 is not present
  */
 
 
